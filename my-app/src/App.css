@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.container div{
+    margin-right: 10px;
+}
+
+button{
+    padding: 5px;
+    border: 2px solid black;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+}
+
+.Dark header{
+    background-color: black;
+}
+.Dark *{
+    color: white;
+    border-color: white;
+}
+.Dark button{
+    background-color: black;
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(88, 85, 85);
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 3px 2px 0px 3px;
+}
+.productContainer img{
+    margin-top: 20px;
+    transition: 2s;
+    width: 150px;
+    height: 200px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.productContainer img:hover{
+    transform: scale(1.1);
+}
+
+.productContainer button{
+    width: 50%;
+    margin-left: 20%;
+    padding: 10px;
+}
+h1{
+    font-size: 15px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+    width: 100%;
+}
+select{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 5px;
+    width: 200px;
+}
+
+.topbar input{
+    margin-left: 100px;
+    margin-right: 15px;
+    padding: 5px;
+    width: 200px;
+
+}
+
+.counterButton button{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.cart-item{
+    display: flex;
+    gap: 200px;
+    border: 1px solid;
+    width: 1500px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.cart-item *{
+    display: flex;
+    align-items: center;
+}
+.cart-item img{
+        height: 100px;
+        margin: 15px;
+}
+
+.cart-item button{  
+    height: 25%;
+    width: 80px;
+    padding: 5px;
+    margin-top: 40px;
+}
+.about-outer{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+.about-outer h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 1%;
+}
+.about-outer p
+{
+    margin-left: 3%;
+    line-height: 40px;
+}
+.happy{
+    text-align: center;
+}
